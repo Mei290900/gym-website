@@ -41,15 +41,23 @@ body {
 .glassmorphism {
   background-color: #f27e2c;
 }
-.glassmorphism .row .col {
+.glassmorphism .glass-row .col-md-3 .icon-box {
+  padding: 30px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 350px;
 }
-.glassmorphism .row .col img {
-  width: 50px;
-  height: 50px;
+.glassmorphism .glass-row .col-md-3 img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    height: 60vh !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
